@@ -1,16 +1,24 @@
-# React + Vite
+# Simple Recipe Application 
+- This is a simple recipe application built using  React and Vite.
+- This application allows users to browse recipes from TheMealDB API and also create their own custom recipes as Original Recipes.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
+- View recipes fetched from TheMealDB API
+- Search recipes by name
+- View detailed recipe information
+- Add your own recipes
+- Edit and delete custom recipes
+- Custom recipes are stored in localStorage
 
-Currently, two official plugins are available:
+# Tech Stack
+- React
+- Vite
+- JavaScript
+- Tailwind CSS
+- React Router
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# How to Run the Project
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Install dependencies from package.json then npm install
+2. Start the dev server then npm run dev
+3. Open the app in your browser using URL shown in the terminal
